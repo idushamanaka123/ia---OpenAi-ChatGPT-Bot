@@ -6,7 +6,7 @@ const chalk = require('chalk')
 🤖 𝗕𝗢𝗧 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦
 */
 global.OFFLINE = false // if you want put bot offline put true
-global.BOT_PRIVATE = false // if you want use bot privet 
+global.BOT_PRIVATE = true // if you want use bot privet 
 global.AUTO_CHATGPT = false // if you want auto ai bot mod
 global.READ_MESSAGE = false // if you want read message from bot
 global.ONLY_INBOX = true // Only inbox mod ( only pm ) use
@@ -33,9 +33,9 @@ global.SESSION_ID = 'elisa_md@;;;EFcS0Ibb#QgtnQZkkspJaYg9LMC8_XNRSZXNPYbJi2QT_Ti
 /*
 🎲 𝗢𝗧𝗛𝗘𝗥 𝗦𝗘𝗧𝗜𝗡𝗚𝗦
 */
-global.CMD1 = '.ai1' // .ai Command
-global.CMD2 = '' // .ai2 Command
-global.IMAGE_CMD = '.aiimg' // .aiimg Command 
+global.CMD1 = '' // .ai Command
+global.CMD2 = 'ai2' // .ai2 Command
+global.IMAGE_CMD = 'aiimg' // .aiimg Command 
 global.PORT = process.env.PORT || '5000' // Port No need Change.
 
 mess = {
